@@ -62,7 +62,6 @@ flowchart LR
    PlaylistApp -. "Verifica Assinatura" .-> ACL
    ACL == "Customer / Supplier\n(Protege o Domínio de Streaming)" ===> UserApp
 
-   classDef context fill:#f9f9f9,stroke:#333,stroke-width:2px;
    class StreamingContext,BillingContext context;
 ```
 
